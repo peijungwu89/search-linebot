@@ -75,7 +75,7 @@ def getRate(currency):
     show = currency + '匯率：\n'
     if currency in keys:
         for i in range(4):
-            exchange = float(twder.now(currencies[currency])[i+1])
+            exchange = twder.now(currencies[currency])[i+1]
             show = show + tlist[i] + '：' + str(exchange) + '\n'
         return show
     else:
