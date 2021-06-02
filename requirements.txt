@@ -17,5 +17,5 @@ six==1.15.0
 sqlparse==0.3.1
 static3==0.7.0
 twder==0.1.4
-urllib3==1.25.10
+urllib3==1.26.5
 whitenoise==5.1.0
